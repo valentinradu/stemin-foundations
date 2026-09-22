@@ -1,6 +1,6 @@
 # Stemin Foundations
 
-This is a content repository for [Stemin](https://git.kinoto.io/rad_val/stemin). It holds two
+This is a content repository for Stemin. It holds two
 domains: mathematics (`math/`) and physics (`phy/`). The physics domain covers electricity and
 magnetism, from charge to the electromagnetic wave.
 
