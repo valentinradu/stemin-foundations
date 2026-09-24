@@ -37,3 +37,22 @@ No voltage is induced. The law depends on the rate of change of flux, not the fl
 steady field, however strong, induces nothing.
 :::
 :::
+
+::: reference faraday
+# Faraday's law of induction
+
+A changing magnetic flux through a loop induces a voltage around it, equal to the rate of change
+of flux. The minus sign is Lenz's law: the induced voltage opposes the change that caused it.
+
+A steady flux induces nothing; only its rate of change drives a voltage.
+
+::: equation
+V = -\frac{d\Phi_B}{dt}
+:::
+
+::: legend
+$V$: induced voltage, in volts
+$\Phi_B$: magnetic flux, in webers
+$\frac{d\Phi_B}{dt}$: rate of change of flux
+:::
+:::

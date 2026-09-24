@@ -54,3 +54,25 @@ $V_3 = 3$ V and $V_6 = 6$ V. The current is $9/(3+6) = 1$ A, the drops sum to 9 
 $9 - 3 - 6 = 0$, so the voltage law holds.
 :::
 :::
+
+::: reference kcl
+# Kirchhoff's current law
+
+At any junction, the current flowing in equals the current flowing out. Charge is conserved:
+nothing piles up at a node and nothing vanishes.
+
+::: equation
+\sum I_\text{in} = \sum I_\text{out}
+:::
+:::
+
+::: reference kvl
+# Kirchhoff's voltage law
+
+Around any closed loop, the rises and drops sum to zero. Energy is conserved: the source lifts
+each coulomb by exactly as much as the components drop it.
+
+::: equation
+\sum V = 0
+:::
+:::

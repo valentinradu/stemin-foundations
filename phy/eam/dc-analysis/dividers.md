@@ -57,3 +57,57 @@ $I_1 = 5 \times 40/(10+40)$, $I_2 = 5 \times 10/(10+40)$. The smaller resistor t
 share.
 :::
 :::
+
+::: reference current-divider
+# Current divider
+
+A current arriving at two parallel branches splits between them. The share through one branch is
+set by the *other* branch's resistance.
+
+::: equation
+I_1 = I_\text{total} \cdot \frac{R_2}{R_1 + R_2}
+:::
+
+::: legend
+$I_1$: current in the first branch, in amperes
+$I_\text{total}$: total current into the junction, in amperes
+$R_1$: first branch resistance, in ohms
+$R_2$: other branch resistance, in ohms
+:::
+
+::: derivation
+Both branches span the same two nodes, so both see the same voltage $V$: $I_1 = V/R_1$ and
+$I_2 = V/R_2$.
+The total is $I_\text{total} = V\left(\dfrac{1}{R_1} + \dfrac{1}{R_2}\right) = V\,\dfrac{R_1 + R_2}{R_1 R_2}$.
+Solve for $V$ and substitute into $I_1 = V/R_1$:
+$I_1 = I_\text{total} \cdot \dfrac{R_2}{R_1 + R_2}$. ∎
+
+It rests on [Ohm's law](reference:ohms-law), [Resistances in parallel](reference:parallel-resistance), [Kirchhoff's current law](reference:kcl).
+:::
+:::
+
+::: reference voltage-divider
+# Voltage divider
+
+Two resistors in series across a supply tap a fraction of it at their junction. The output is the
+supply scaled by the bottom resistor's share.
+
+::: equation
+V_\text{out} = V_\text{in} \cdot \frac{R_2}{R_1 + R_2}
+:::
+
+::: legend
+$V_\text{out}$: output voltage, in volts
+$V_\text{in}$: input voltage, in volts
+$R_1$: first resistor, in ohms
+$R_2$: second (output) resistor, in ohms
+:::
+
+::: derivation
+The two resistors form one series path, so the same current flows: $I = V_\text{in}/(R_1 + R_2)$.
+The output sits directly across $R_2$, so it is the drop there: $V_\text{out} = I R_2$.
+Substituting $I$: $V_\text{out} = V_\text{in} \cdot \dfrac{R_2}{R_1 + R_2}$. ∎
+
+It rests on [Ohm's law](reference:ohms-law), [Resistances in series](reference:series-resistance), [Kirchhoff's voltage law](reference:kvl).
+:::
+:::

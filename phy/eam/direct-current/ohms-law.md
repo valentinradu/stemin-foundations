@@ -61,3 +61,22 @@ A component carries 0.5 A when 6 V sits across it. What is its resistance?
 $R = V / I = 6 / 0.5 = 12\ \Omega$. Divide the voltage by the current.
 :::
 :::
+
+::: reference ohms-law
+# Ohm's law
+
+The current through a conductor equals the voltage across it divided by its resistance.
+
+More voltage drives more current; more resistance allows less. The relation is measured, not
+derived: it holds for a conductor whose resistance stays constant.
+
+::: equation
+I = \frac{V}{R} \qquad V = I R \qquad R = \frac{V}{I}
+:::
+
+::: legend
+$I$: current, in amperes
+$V$: voltage across the conductor, in volts
+$R$: resistance, in ohms
+:::
+:::

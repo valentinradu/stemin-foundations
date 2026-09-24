@@ -47,3 +47,26 @@ When the loop's sides are moving straight across the field lines, cutting them h
 quarter-turn later they move along the lines, cut nothing, and the voltage is zero.
 :::
 :::
+
+::: reference magnetic-force
+# Force on a moving charge
+
+A magnetic field pushes on a moving charge by an amount set by the charge, its speed, the field,
+and the angle between the motion and the field.
+
+The $\sin\theta$ means only the part of the motion that crosses the field counts: along the field
+lines the force is zero, across them it is greatest. The force is perpendicular to both the
+motion and the field.
+
+::: equation
+F = q\,v\,B \sin\theta
+:::
+
+::: legend
+$F$: force on the charge, in newtons
+$q$: charge, in coulombs
+$v$: speed, in metres per second
+$B$: magnetic flux density, in teslas
+$\theta$: angle between the velocity and the field
+:::
+:::

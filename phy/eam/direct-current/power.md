@@ -92,3 +92,29 @@ $$ 6\ \text{kWh} \times 0.22 = 1.32 $$
 So €1.32 a day. ∎
 :::
 :::
+
+::: reference power
+# Electrical power
+
+Power is the rate at which a circuit converts energy. Voltage is joules per coulomb, current is
+coulombs per second, so their product is joules per second.
+
+::: equation
+P = V I = I^2 R = \frac{V^2}{R}
+:::
+
+::: legend
+$P$: power, in watts
+$V$: voltage, in volts
+$I$: current, in amperes
+$R$: resistance, in ohms
+:::
+
+::: derivation
+Start from $P = V I$.
+Ohm's law gives $V = I R$, so $P = (I R)\,I = I^2 R$.
+It also gives $I = V / R$, so $P = V \cdot \dfrac{V}{R} = \dfrac{V^2}{R}$. ∎
+
+It rests on [Ohm's law](reference:ohms-law).
+:::
+:::

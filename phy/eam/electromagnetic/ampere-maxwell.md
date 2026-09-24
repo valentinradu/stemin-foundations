@@ -45,3 +45,17 @@ acts identically to a real current in Ampère's law, producing the same field as
 crossed the gap.
 :::
 :::
+
+::: reference ampere-maxwell
+# The Ampère–Maxwell law
+
+The magnetic field around a closed loop is set by the current through the enclosed surface plus
+Maxwell's displacement current, the rate of change of electric flux.
+
+The displacement term makes the law consistent for any surface bounded by the loop, including one
+through a charging capacitor's gap.
+
+::: equation
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0\left( I_\text{through} + \varepsilon_0 \frac{d\Phi_E}{dt} \right)
+:::
+:::

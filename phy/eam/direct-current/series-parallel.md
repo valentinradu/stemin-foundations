@@ -89,3 +89,51 @@ $$ V_{30} = I R = 0.2 \times 30 = 6\ \text{V} $$
 The remaining 4 V sits across the 20 Ω resistor, and the two drops add back to 10 V. ∎
 :::
 :::
+
+::: reference parallel-resistance
+# Resistances in parallel
+
+Components side by side between the same two points see the same voltage. The reciprocals of
+their resistances add.
+
+$$ R_\text{parallel} = \frac{R_1 R_2}{R_1 + R_2} $$
+
+::: equation
+\frac{1}{R_\text{parallel}} = \frac{1}{R_1} + \frac{1}{R_2}
+:::
+
+::: derivation
+Both branches sit across the same voltage $V$.
+Each draws its own current by Ohm's law: $I_1 = V / R_1$ and $I_2 = V / R_2$.
+The branch currents sum to the total: $I = I_1 + I_2 = V \left( \dfrac{1}{R_1} + \dfrac{1}{R_2} \right)$.
+Dividing by $V$ gives $\dfrac{1}{R_\text{parallel}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$.
+Combining the fractions gives $R_\text{parallel} = \dfrac{R_1 R_2}{R_1 + R_2}$. ∎
+
+It rests on [Ohm's law](reference:ohms-law).
+:::
+:::
+
+::: reference series-resistance
+# Resistances in series
+
+Components end to end on a single path carry the same current. Their resistances add.
+
+::: equation
+R_\text{series} = R_1 + R_2
+:::
+
+::: legend
+$R_\text{series}$: total resistance, in ohms
+$R_1$: first resistor, in ohms
+$R_2$: second resistor, in ohms
+:::
+
+::: derivation
+The same current $I$ flows through both, since the path does not branch.
+Each drops a voltage by Ohm's law: $V_1 = I R_1$ and $V_2 = I R_2$.
+The drops add to the total across the pair: $V = V_1 + V_2 = I (R_1 + R_2)$.
+Dividing by $I$ gives $R_\text{series} = R_1 + R_2$. ∎
+
+It rests on [Ohm's law](reference:ohms-law).
+:::
+:::

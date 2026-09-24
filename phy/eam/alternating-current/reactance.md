@@ -55,3 +55,43 @@ The capacitor passes more: $X_C = 1/\omega C$ falls as frequency climbs. The ind
 less: $X_L = \omega L$ rises. A capacitor favours high frequencies, an inductor low ones.
 :::
 :::
+
+::: reference capacitive-reactance
+# Capacitive reactance
+
+A capacitor's opposition to alternating current falls as the frequency rises: it passes fast,
+blocks slow. The reactance has units of ohms and enters Ohm's law as $V = I X_C$.
+
+At high frequency $X_C$ is small and current flows easily; at DC ($\omega = 0$) it is infinite
+and the capacitor blocks completely. The energy is stored and returned, not burned.
+
+::: equation
+X_C = \frac{1}{\omega C}
+:::
+
+::: legend
+$X_C$: capacitive reactance, in ohms
+$\omega$: angular frequency, in radians per second
+$C$: capacitance, in farads
+:::
+:::
+
+::: reference inductive-reactance
+# Inductive reactance
+
+An inductor's opposition to alternating current rises with the frequency: it passes slow, blocks
+fast. The reactance has units of ohms and enters Ohm's law as $V = I X_L$.
+
+At high frequency $X_L$ is large and chokes the current; at DC it is zero, a plain wire. The
+energy is stored in the magnetic field and returned, not burned.
+
+::: equation
+X_L = \omega L
+:::
+
+::: legend
+$X_L$: inductive reactance, in ohms
+$\omega$: angular frequency, in radians per second
+$L$: inductance, in henries
+:::
+:::

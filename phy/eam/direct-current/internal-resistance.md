@@ -73,3 +73,30 @@ $$ W = P\,t = 22 \times 2 = 44\ \text{Wh} = 0.044\ \text{kWh} $$
 ∎
 :::
 :::
+
+::: reference terminal-voltage
+# Terminal voltage
+
+A real source carries a small internal resistance $r$ in series with the circuit. The voltage at
+its terminals is its EMF less the drop lost across $r$.
+
+::: equation
+U = \mathcal{E} - I r
+:::
+
+::: legend
+$U$: terminal voltage, in volts
+$\mathcal{E}$: electromotive force, in volts
+$I$: current drawn, in amperes
+$r$: internal resistance, in ohms
+:::
+
+::: derivation
+The internal resistance $r$ carries the same current $I$ the source delivers.
+By Ohm's law it drops a voltage $I r$ inside the source.
+The EMF $\mathcal{E}$ is the source's voltage with no current flowing.
+What reaches the terminals is the EMF less that internal drop: $U = \mathcal{E} - I r$. ∎
+
+It rests on [Ohm's law](reference:ohms-law).
+:::
+:::
