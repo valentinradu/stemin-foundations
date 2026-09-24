@@ -24,4 +24,5 @@ stemin check .
 The two domains stay in one repository on purpose. A reference from one domain to another works
 only inside one repository, and physics will need mathematics.
 
-This file is not content. The app reads only `index.md` and the directories that `order` names.
+This file is not content. The app reads only `index.md`, the directories that `order` names, and
+each domain's `checkpoints/`.
