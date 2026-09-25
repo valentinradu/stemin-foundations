@@ -74,13 +74,12 @@ $\tau$: time constant, in seconds
 :::
 
 ::: derivation
-Around the loop the supply equals the resistor drop plus the inductor's opposition:
+Around the loop the supply equals the resistor drop[Ohm's law](reference:ohms-law) plus the
+inductor's opposition:[Inductor voltage](reference:inductor-voltage)
 $V_s = I R + L\,dI/dt$.
 Rearrange: $L\dfrac{dI}{dt} = V_s - I R$, the rate of change proportional to the remaining gap to
 $V_s/R$.
 That integrates to an exponential approach. With $I(0) = 0$:
 $I(t) = \dfrac{V_s}{R}\left(1 - e^{-t/(L/R)}\right)$, so $\tau = L/R$. ∎
-
-It rests on [Ohm's law](reference:ohms-law), [Inductor voltage](reference:inductor-voltage).
 :::
 :::

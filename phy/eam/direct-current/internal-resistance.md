@@ -93,10 +93,8 @@ $r$: internal resistance, in ohms
 
 ::: derivation
 The internal resistance $r$ carries the same current $I$ the source delivers.
-By Ohm's law it drops a voltage $I r$ inside the source.
+By Ohm's law it drops a voltage $I r$ inside the source.[Ohm's law](reference:ohms-law)
 The EMF $\mathcal{E}$ is the source's voltage with no current flowing.
 What reaches the terminals is the EMF less that internal drop: $U = \mathcal{E} - I r$. ∎
-
-It rests on [Ohm's law](reference:ohms-law).
 :::
 :::

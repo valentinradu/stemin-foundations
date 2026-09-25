@@ -106,13 +106,11 @@ $I_N$: Norton current, in amperes
 :::
 
 ::: derivation
-With a load attached, the Thévenin form is a voltage divider of $V_\text{th}$ across
+With a load attached, the Thévenin form is a voltage divider[Voltage divider](reference:voltage-divider) of $V_\text{th}$ across
 $R_\text{th}$ and $R_L$, giving $V_L$.
 The Norton form agrees at both extremes: open the terminals and all of $I_N$ flows through
 $R_\text{th}$, putting $I_N R_\text{th}$ across them, which must equal the open-circuit voltage
 $V_\text{th}$; short the terminals and the current is $I_N$.
-Agreeing at both ends, they agree for every load between, so $I_N = V_\text{th}/R_\text{th}$. ∎
-
-It rests on [Voltage divider](reference:voltage-divider), [Ohm's law](reference:ohms-law).
+Agreeing at both ends, they agree for every load between, so $I_N = V_\text{th}/R_\text{th}$.[Ohm's law](reference:ohms-law) ∎
 :::
 :::

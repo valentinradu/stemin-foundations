@@ -77,12 +77,10 @@ $R_2$: other branch resistance, in ohms
 
 ::: derivation
 Both branches span the same two nodes, so both see the same voltage $V$: $I_1 = V/R_1$ and
-$I_2 = V/R_2$.
-The total is $I_\text{total} = V\left(\dfrac{1}{R_1} + \dfrac{1}{R_2}\right) = V\,\dfrac{R_1 + R_2}{R_1 R_2}$.
+$I_2 = V/R_2$.[Ohm's law](reference:ohms-law)
+The total[Kirchhoff's current law](reference:kcl) is $I_\text{total} = V\left(\dfrac{1}{R_1} + \dfrac{1}{R_2}\right) = V\,\dfrac{R_1 + R_2}{R_1 R_2}$.[Resistances in parallel](reference:parallel-resistance)
 Solve for $V$ and substitute into $I_1 = V/R_1$:
 $I_1 = I_\text{total} \cdot \dfrac{R_2}{R_1 + R_2}$. ∎
-
-It rests on [Ohm's law](reference:ohms-law), [Resistances in parallel](reference:parallel-resistance), [Kirchhoff's current law](reference:kcl).
 :::
 :::
 
@@ -104,10 +102,8 @@ $R_2$: second (output) resistor, in ohms
 :::
 
 ::: derivation
-The two resistors form one series path, so the same current flows: $I = V_\text{in}/(R_1 + R_2)$.
-The output sits directly across $R_2$, so it is the drop there: $V_\text{out} = I R_2$.
+The two resistors form one series path,[Resistances in series](reference:series-resistance) so the same current flows: $I = V_\text{in}/(R_1 + R_2)$.[Kirchhoff's voltage law](reference:kvl)
+The output sits directly across $R_2$, so it is the drop there: $V_\text{out} = I R_2$.[Ohm's law](reference:ohms-law)
 Substituting $I$: $V_\text{out} = V_\text{in} \cdot \dfrac{R_2}{R_1 + R_2}$. ∎
-
-It rests on [Ohm's law](reference:ohms-law), [Resistances in series](reference:series-resistance), [Kirchhoff's voltage law](reference:kvl).
 :::
 :::

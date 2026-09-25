@@ -60,11 +60,9 @@ $V_p$: peak voltage, in volts
 ::: derivation
 Average power in a resistor is the instantaneous $v^2/R$ averaged over a cycle:
 $P_\text{avg} = \overline{v^2}/R$.
-Define $V_\text{rms} = \sqrt{\overline{v^2}}$, so $P_\text{avg} = V_\text{rms}^2/R$, the DC form.
+Define $V_\text{rms} = \sqrt{\overline{v^2}}$, so $P_\text{avg} = V_\text{rms}^2/R$, the DC form.[Electrical power](reference:power)
 For $v = V_p\sin(\omega t)$, the average of $\sin^2$ over a cycle is $1/2$, so
 $\overline{v^2} = V_p^2/2$.
 Therefore $V_\text{rms} = V_p/\sqrt{2}$. ∎
-
-It rests on [Electrical power](reference:power).
 :::
 :::

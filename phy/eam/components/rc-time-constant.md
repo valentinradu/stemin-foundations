@@ -89,13 +89,11 @@ $C$: capacitance, in farads
 :::
 
 ::: derivation
-The same current flows through the resistor and into the capacitor: $I = (V_s - V_\text{cap})/R$
-and $I = C\,dV_\text{cap}/dt$.
+The same current flows through the resistor and into the capacitor: $I = (V_s - V_\text{cap})/R$[Ohm's law](reference:ohms-law)
+and $I = C\,dV_\text{cap}/dt$.[Capacitance](reference:capacitance)
 Equate them: $C\dfrac{dV_\text{cap}}{dt} = \dfrac{V_s - V_\text{cap}}{R}$.
 The rate of change is proportional to the remaining gap $V_s - V_\text{cap}$, which integrates
 to an exponential approach.
 With $V_\text{cap}(0) = 0$: $V_\text{cap}(t) = V_s\left(1 - e^{-t/RC}\right)$, so $\tau = RC$. ∎
-
-It rests on [Ohm's law](reference:ohms-law), [Capacitance](reference:capacitance).
 :::
 :::

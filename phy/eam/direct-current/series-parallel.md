@@ -104,12 +104,10 @@ $$ R_\text{parallel} = \frac{R_1 R_2}{R_1 + R_2} $$
 
 ::: derivation
 Both branches sit across the same voltage $V$.
-Each draws its own current by Ohm's law: $I_1 = V / R_1$ and $I_2 = V / R_2$.
+Each draws its own current by Ohm's law: $I_1 = V / R_1$ and $I_2 = V / R_2$.[Ohm's law](reference:ohms-law)
 The branch currents sum to the total: $I = I_1 + I_2 = V \left( \dfrac{1}{R_1} + \dfrac{1}{R_2} \right)$.
 Dividing by $V$ gives $\dfrac{1}{R_\text{parallel}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$.
 Combining the fractions gives $R_\text{parallel} = \dfrac{R_1 R_2}{R_1 + R_2}$. ∎
-
-It rests on [Ohm's law](reference:ohms-law).
 :::
 :::
 
@@ -130,10 +128,8 @@ $R_2$: second resistor, in ohms
 
 ::: derivation
 The same current $I$ flows through both, since the path does not branch.
-Each drops a voltage by Ohm's law: $V_1 = I R_1$ and $V_2 = I R_2$.
+Each drops a voltage by Ohm's law: $V_1 = I R_1$ and $V_2 = I R_2$.[Ohm's law](reference:ohms-law)
 The drops add to the total across the pair: $V = V_1 + V_2 = I (R_1 + R_2)$.
 Dividing by $I$ gives $R_\text{series} = R_1 + R_2$. ∎
-
-It rests on [Ohm's law](reference:ohms-law).
 :::
 :::

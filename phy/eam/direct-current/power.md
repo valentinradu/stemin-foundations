@@ -112,9 +112,7 @@ $R$: resistance, in ohms
 
 ::: derivation
 Start from $P = V I$.
-Ohm's law gives $V = I R$, so $P = (I R)\,I = I^2 R$.
+Ohm's law[Ohm's law](reference:ohms-law) gives $V = I R$, so $P = (I R)\,I = I^2 R$.
 It also gives $I = V / R$, so $P = V \cdot \dfrac{V}{R} = \dfrac{V^2}{R}$. ∎
-
-It rests on [Ohm's law](reference:ohms-law).
 :::
 :::

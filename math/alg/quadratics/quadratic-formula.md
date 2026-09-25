@@ -69,8 +69,7 @@ Divide by $a$ and complete the square:
 
 $$ x^2 + \frac{b}{a}\,x = -\frac{c}{a}, \qquad \left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2}. $$
 
+The numerator on the right is the discriminant.[The discriminant](reference:discriminant)
 Take the square root of both sides and isolate $x$ to get the formula. ∎
-
-It rests on [The discriminant](reference:discriminant).
 :::
 :::
